@@ -1,0 +1,143 @@
+@media (max-width: 1198px) {
+
+
+
+  .name_title h1 {
+    font-size: 2.9vw !important;
+  }
+
+
+  .name_title h1::after {
+
+    left: 39px !important;
+  }
+
+
+
+    }
+
+
+@media (max-width: 990px) {
+
+
+
+  .name_title h1 {
+    font-size: 25px !important;
+  }
+
+
+
+  .name_title h1::after {
+    width: 184px !important;
+    left: 18px !important;
+    top: 38px !important;
+  }
+
+/*  */
+    }
+
+
+@media (max-width: 764px) {
+
+  body img{
+    width: 100%;
+    height: auto;
+  }
+  .name_title h1 {
+    font-size: 18px !important;
+  }
+
+
+  .name_title h1::after {
+    width: 135px !important;
+    left: 11px !important;
+    top: 25px !important;
+  }
+  
+
+/*  */
+    }
+
+@media (max-width: 572px) {
+
+  .cv_Photos img {
+    width: 100%;
+    height: auto;
+  }
+
+  .name_title h1 {
+    font-size: 9vw !important;
+    text-align: center;
+  }
+
+
+
+  .name_title h1::after {
+    width: 340px !important;
+    top: 58px !important;
+  }
+
+  .asraf_info {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  .text_container {
+    text-align: center;
+  }
+
+  .asraf_signature {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+/*  */
+    }
+
+
+
+
+@media (max-width: 428px) {
+
+    .cv_Photos img {
+        width: 100%;
+        height: auto;
+      }
+  
+      .name_title {
+        text-align: center !important;
+      }
+
+      .text_container {
+        text-align: center;
+      }
+      
+
+      .name_title h1::after {
+        content: '';
+        position: absolute;
+        width: 71%;
+        height: 3px;
+        background: #000;
+        bottom: 0;
+        left: 9px;
+
+      }
+
+
+    }
+
+
+
+
+@media (max-width: 428px) {
+
+   
+
+  .name_title h1::after {
+    width: 240px !important;
+    top: 45px !important;
+  }
+
+
+    }
