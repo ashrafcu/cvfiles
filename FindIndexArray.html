@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Find and Find Index Function</title>
+    </head>
+    <body>
+        <script>
+          var numbers=[67, 87, 29, 19, 28, 90, 45, 59, 20, 98, 102, 79, 73, 907];
+          var filterednums= numbers.find(function(value){return value>100});
+          document.write (filterednums);
+        </script>
+        <br/>
+        <script>
+            var numbers=[67, 87, 29, 19, 28, 90, 45, 59, 20, 98, 102, 79, 73, 907];
+            var filterednums= numbers.findIndex(function(value){return value>100});
+            document.write (filterednums);
+          </script>
+    </body>
+
+</html>
